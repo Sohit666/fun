@@ -20,6 +20,9 @@ const donts = [
 const DoAndDont = () => {
   return (
     <Box sx={{ mt: 5 }}>
+         <Typography variant="h2" align="center" sx={{ p: 1 }}>
+       Read carefully
+      </Typography>
       <Typography variant="h4" gutterBottom>
         Do&rsquo;s and Don&rsquo;ts
       </Typography>

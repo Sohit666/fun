@@ -26,14 +26,15 @@ const ImageCards = () => {
         }}
       >
         {images.map((image, index) => (
-          <Card key={index} sx={{ width: 150, height: 'auto', mb: 2 }}> {/* Set card width */}
+          <Card key={index} sx={{ width: 150, height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', mb: 2 }}>
             <CardMedia
               component="img"
               height="150" // Adjust height to make cards smaller
               image={image.src}
               alt={image.title}
+              sx={{ objectFit: 'cover' }} // Keep aspect ratio of the image
             />
-            <Typography variant="subtitle1" align="center" sx={{ p: 1 }}>
+            <Typography variant="h7" align="center" sx={{ p: 1, flexShrink: 0 }}>
               {image.title}
             </Typography>
           </Card>
