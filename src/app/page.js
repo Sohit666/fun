@@ -13,6 +13,9 @@ const Home = () => {
   <Typography variant="h2" align="center" sx={{ p: 1 }}>
        On 12th oct , 8:00 pm all are invited
       </Typography>
+  <Typography variant="h4" align="center" sx={{ p: 1 }}>
+       Cheers and Beer to 24 years
+      </Typography>
   <Typography variant="h6" align="center" sx={{ p: 1 }}>
        Beat the Heat!!!!!
       </Typography>

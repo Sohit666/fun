@@ -9,12 +9,13 @@ const images = [
   { src: '/assets/tarun.png', title: 'Tarun Pal' },
   { src: '/assets/vivek.png', title: 'Vivek Chaudhary' },
   { src: '/assets/anuj.png', title: 'Anuj Jatav' },
+  { src: '/assets/akrit.png', title: 'Akrit Raghav' },
 ];
 
 const ImageCards = () => {
   return (
     <Box sx={{ textAlign: 'center', mt: 4 }}>
-      <Typography variant="h1" sx={{ color: "white", mb: 2 }}>
+      <Typography variant="h3" sx={{ color: "white", mb: 2 }}>
         Mukhya Karyakarta
       </Typography>
       <Box
