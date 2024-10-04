@@ -15,7 +15,7 @@ const ImageCards = () => {
   return (
     <Box sx={{ textAlign: 'center', mt: 4 }}>
       <Typography variant="h1" sx={{ color: "white", mb: 2 }}>
-        Mukhya Karyakart
+        Mukhya Karyakarta
       </Typography>
       <Box
         sx={{
