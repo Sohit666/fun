@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Card, CardContent, Typography, List, ListItem, ListItemText, Grid } from '@mui/material';
+import {  Card, CardContent, Typography,  ListItem, ListItemText, Grid } from '@mui/material';
 
 const guests = [
   'Rohit Maurya', 'Sohit Prajapati', 'Vivek Chaudhary', 'Harsh Verma', 'Akrit Raghav', 'Tarun Pal',
