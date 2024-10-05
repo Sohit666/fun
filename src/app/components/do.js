@@ -45,7 +45,7 @@ const DoAndDont = () => {
 
   return (
     <Box sx={{ mt: 5 }}>
-      <Typography variant="h2" align="center" sx={{ p: 1 }}>
+      <Typography variant="h2" align="center" sx={{ p: 1, textDecoration:"underline" }}>
         Read carefully
       </Typography>
       <Typography variant="h4" gutterBottom>

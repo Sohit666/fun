@@ -11,13 +11,17 @@ const Home = () => {
 
   <div>
   <Typography variant="h2" align="center" sx={{ p: 1 }}>
-       On 12th oct , 8:00 pm all are invited
+        🎉 On 12th Oct, 8:00 PM all are invited 🎉
       </Typography>
-  <Typography variant="h4" align="center" sx={{ p: 1 }}>
-       Cheers and Beer to 24 years
+      
+      {/* Cheers to 24 years */}
+      <Typography variant="h4" align="center" sx={{ p: 1 }}>
+        🍻 Cheers and Beer to 24 years 🍺
       </Typography>
-  <Typography variant="h6" align="center" sx={{ p: 1 }}>
-       Beat the Heat!!!!!
+      
+      {/* Beat the Heat */}
+      <Typography variant="h6" align="center" sx={{ p: 1 }}>
+        ☀️ Beat the Heat!!!!! 🧊
       </Typography>
     <Container>
       {/* Carousel Section */}

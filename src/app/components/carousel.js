@@ -23,7 +23,17 @@ const Carousel = () => {
   }, []);
 
   return (
-    <Card sx={{ maxWidth: 370, mx: 'auto', mt: 4, position: 'relative' }}>
+    <Card 
+      sx={{ 
+        maxWidth: 370, 
+        mx: 'auto', 
+        mt: 4, 
+        position: 'relative',
+        border: '2px solid #1976d2', // Add border with color (primary blue in this case)
+        borderRadius: '16px', // Optional: rounding the corners for the border
+        boxShadow: 3 // Optional: add some shadow for better effect
+      }}
+    >
       <Box sx={{ height: 400, overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <Image
           src={images[currentImage]}
@@ -61,12 +71,12 @@ const Carousel = () => {
           color="secondary"
           href="tel:7834916406"
           sx={{
-            borderRadius: 2, // Rounded corners
-            padding: '10px 20px', // Increase size
+            borderRadius: 2, 
+            padding: '10px 20px', 
             transition: 'background-color 0.3s, transform 0.3s',
             '&:hover': {
-              backgroundColor: '#d74e00', // Darker shade on hover
-              transform: 'scale(1.05)', // Slightly enlarge on hover
+              backgroundColor: '#d74e00', 
+              transform: 'scale(1.05)', 
             },
           }}
         >

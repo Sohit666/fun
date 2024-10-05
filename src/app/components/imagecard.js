@@ -4,13 +4,17 @@
 import { Box, Card, CardMedia, Typography } from '@mui/material';
 
 const images = [
+  { src: '/assets/akrit.png', title: 'Akrit Raghav' },
+  { src: '/assets/anuj.png', title: 'Anuj Jatav' },
+  { src: '/assets/golu.png', title: 'Bharat Goyal Golu' },
+  { src: '/assets/chaman.png', title: 'Tarun Singh' },
+  { src: '/assets/saurav.png', title: 'Saurabh' },
   { src: '/assets/sohit.jpg', title: 'Sohit Prajapati' },
   { src: '/assets/rohit.png', title: 'Rohit Maurya' },
   { src: '/assets/tarun.png', title: 'Tarun Pal' },
-  { src: '/assets/vivek.png', title: 'Vivek Chaudhary' },
-  { src: '/assets/anuj.png', title: 'Anuj Jatav' },
-  { src: '/assets/akrit.png', title: 'Akrit Raghav' },
+  { src: '/assets/vivek.png', title: 'Vivek Chaudhary' }
 ];
+
 
 const ImageCards = () => {
   return (
