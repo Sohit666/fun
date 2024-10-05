@@ -7,6 +7,9 @@ const images = [
   { src: '/assets/akrit.png', title: 'Akrit Raghav' },
   { src: '/assets/anuj.png', title: 'Anuj Jatav' },
   { src: '/assets/golu.png', title: 'Bharat Goyal Golu' },
+  { src: '/assets/ekii.png', title: 'Ekansh Rajput' },
+  { src: '/assets/mayank.png', title: 'Mayank Malhotra' },
+
   { src: '/assets/chaman.png', title: 'Tarun Singh' },
   { src: '/assets/saurav.png', title: 'Saurabh' },
   { src: '/assets/sohit.jpg', title: 'Sohit Prajapati' },
