@@ -2,7 +2,9 @@
 import { Container,  Typography } from '@mui/material';
 import Carousel from './components/carousel';
 import ImageCard from './components/imagecard';
+import List from './components/List'
 import DoAndDont from './components/do';
+
 
 const Home = () => {
   
@@ -30,6 +32,7 @@ const Home = () => {
       <ImageCard/>
 
       {/* Do's and Don'ts Section */}
+      <List/>
       <DoAndDont />
     </Container>
   </div>

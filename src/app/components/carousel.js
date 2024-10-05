@@ -45,13 +45,16 @@ const Carousel = () => {
         />
       </Box>
       <Typography variant="h4" align="center" sx={{ p: 1 }}>
+        Organizer
+      </Typography>
+      <Typography variant="h4" align="center" sx={{ p: 1 }}>
         Deepak Chaudhary
       </Typography>
       <Box sx={{ display: 'flex', justifyContent: 'space-between', p: 1 }}>
         <Button
           variant="contained"
           color="primary"
-          href="https://maps.app.goo.gl/xv8wY46Uw4Ay8LjE9"
+          href="https://maps.app.goo.gl/xGCwJLf3532e1mur8"
           target="_blank"
           sx={{
             mr: 1,

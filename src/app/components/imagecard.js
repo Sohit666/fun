@@ -4,17 +4,21 @@
 import { Box, Card, CardMedia, Typography } from '@mui/material';
 
 const images = [
+  { src: '/assets/sohit.jpg', title: 'Web Developer - Sohit Prajapati' },
+  { src: '/assets/tarun.png', title: 'Liquor Manager - Tarun Pal ' },
+  { src: '/assets/rohit.png', title: 'Location Manager - Rohit Maurya' },
+  { src: '/assets/ekii.png', title: 'Food Manager - Ekansh Rajput' },
   { src: '/assets/akrit.png', title: 'Akrit Raghav' },
   { src: '/assets/anuj.png', title: 'Anuj Jatav' },
   { src: '/assets/golu.png', title: 'Bharat Goyal Golu' },
-  { src: '/assets/ekii.png', title: 'Ekansh Rajput' },
+
   { src: '/assets/mayank.png', title: 'Mayank Malhotra' },
 
   { src: '/assets/chaman.png', title: 'Tarun Singh' },
   { src: '/assets/saurav.png', title: 'Saurabh' },
-  { src: '/assets/sohit.jpg', title: 'Sohit Prajapati' },
-  { src: '/assets/rohit.png', title: 'Rohit Maurya' },
-  { src: '/assets/tarun.png', title: 'Tarun Pal' },
+
+
+
   { src: '/assets/vivek.png', title: 'Vivek Chaudhary' }
 ];
 
